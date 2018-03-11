@@ -14,7 +14,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 #Step 3 - Retrieve Tweets
-public_tweets = api.search('Trump')
+public_tweets = api.search('BTC')
 
 
 
